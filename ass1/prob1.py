@@ -177,14 +177,3 @@ def maybe_pickle(data_folders, min_num_images_per_class, force=False):
 
 train_datasets = maybe_pickle(train_folders, 45000)
 test_datasets = maybe_pickle(test_folders, 1800)
-
-
-# ---
-# Problem 2
-# ---------
-# 
-# Let's verify that the data still looks good. Displaying a sample of the labels and images from the ndarray. Hint: you can use matplotlib.pyplot.
-# 
-# ---
-
-
